@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* 居中导航链接 */
+}
+
+nav li {
+  display: inline-block; /* 使用 inline-block，以便设置宽度和垂直居中 */
+  margin: 0 10px; /* 简化 margin 设置 */
+  vertical-align: middle; /* 垂直居中 */
+}
+
+nav a {
+  text-decoration: none; /* 去除链接下划线 */
+  color: #333; /* 设置链接颜色 */
+  padding: 5px 10px; /* 添加内边距，使链接更易点击 */
+  border-radius: 3px; /* 可选：添加圆角 */
+  transition: background-color 0.3s ease; /* 添加 hover 效果的过渡 */
+}
+
+nav a:hover {
+  background-color: #e0e0e0; /* hover 时改变背景颜色 */
+}
+
+#profile-picture {
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  display: block; /* 防止图片下方出现空白 */
+  margin-left: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* 绿色 */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #45a049; /* 更深的绿色 */
+}
